@@ -2,7 +2,7 @@ CreditsTextPointers:
 ; entries correspond to CRED_* constants
 	table_width 2, CreditsTextPointers
 	dw CreditsText_Version
-	dw CreditsText_Tajiri
+	dw CreditsText_Russell
 	dw CreditsText_Oota
 	dw CreditsText_Morimoto
 	dw CreditsText_Watanabe
@@ -92,8 +92,8 @@ CreditsTextPointers:
 CreditsText_Version:
 	db -6, "YELLOW VERSION"
 	next   "    STAFF@"
-CreditsText_Tajiri:
-	db -6, "SATOSHI TAJIRI@"
+CreditsText_Russell:
+	db -6, "RUSSELL RATTIE@"
 CreditsText_Oota:
 	db -6, "TAKENORI OOTA@"
 CreditsText_Morimoto:
