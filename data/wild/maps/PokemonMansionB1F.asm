@@ -10,6 +10,7 @@ PokemonMansionB1FWildMons:
 	db 46, RATICATE
 	db 18, DITTO
 	db 12, DITTO
+	db 38, MEW
 	end_grass_wildmons
 
 	def_water_wildmons 0 ; encounter rate
